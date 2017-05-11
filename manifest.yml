@@ -1,16 +1,16 @@
 applications:
-- name: slack-invite-automation
-  host: slack-invite-automation
+- name: atlblacktech-slack-invite
+  host: atlblacktech-slack-invite
   command: bin/www
   instances: 1
   memory: 128M
   disk_quota: 128M
   env:
     # your community or team name to display on join page
-    COMMUNITY_NAME: SocketIO
+    COMMUNITY_NAME: ATLBlackTech
 
     # your slack team url (ex: socketio.slack.com)
-    SLACK_URL: socketio.slack.com
+    SLACK_URL: atlblacktech.slack.com
 
     # access token of slack
     # You can generate it in https://api.slack.com/web#auth
